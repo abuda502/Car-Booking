@@ -161,8 +161,8 @@ if(isset($_SESSION['login_client'])){
                                 </div>
 
                             </div>
-                            <label style="margin-left: 5px;">or</label> <br>
-                            <label style="margin-left: 5px;"><a href="clientsignup.php">Create a new account.</a></label>
+       
+                            
                         </form>
                     </div>
                 </div>
