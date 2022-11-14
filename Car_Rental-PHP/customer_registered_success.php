@@ -141,7 +141,7 @@ $customer_username = $conn->real_escape_string($_POST['customer_username']);
 $customer_email = $conn->real_escape_string($_POST['customer_email']);
 $customer_phone = $conn->real_escape_string($_POST['customer_phone']);
 $customer_address = $conn->real_escape_string($_POST['customer_address']);
-$customer_password = $conn->real_escape_string($_POST['customer_password']);
+$customer_password = $conn->real_escape_string(md5($_POST['customer_password']));
 
 $query = "INSERT into customers(customer_name,customer_username,customer_email,customer_phone,customer_address,customer_password) VALUES('" . $customer_name . "','" . $customer_username . "','" . $customer_email . "','" . $customer_phone . "','" . $customer_address ."','" . $customer_password ."')";
 $success = $conn->query($query);
