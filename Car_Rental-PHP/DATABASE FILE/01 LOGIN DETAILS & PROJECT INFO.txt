@@ -10,8 +10,13 @@ Password: password
 Username: anita
 password: pass123
 
+Username: CT
+Password: Cait-Capital C
 
 **Employee Login Details**
+Username: root1
+Password: ff9830c42660c1dd1942844f8069b74a
+
 
 Username: harry
 Password: password
@@ -21,3 +26,6 @@ Password: jenny
 
 Username:abudhathoki
 Password: pass123
+
+Username: Grant
+password: grant1234

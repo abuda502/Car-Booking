@@ -186,7 +186,7 @@ if (!isset($_SESSION['login_customer'])) {
                             <div ng-switch-when="ac">
                                 <!-- <div class="form-group"> -->
                                 <h5>Fare:
-                                    <b><?php echo ("$." . $ac_price . "/mi and $." . $ac_price_per_day . "/day"); ?></b>
+                                    <b><?php echo ("$" . $ac_price . "/mi and $" . $ac_price_per_day . "/day"); ?></b>
                                     <h5>
                                         <!-- </div>    -->
                             </div>

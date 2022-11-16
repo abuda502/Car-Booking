@@ -157,7 +157,7 @@ function dateDiff($start, $end) {
             if($charge_type == "days"){
                     echo ($fare . "/day");
                 } else {
-                    echo ($fare . "/km");
+                    echo ($fare . "/mi");
                 }
             ?>
             </h5>

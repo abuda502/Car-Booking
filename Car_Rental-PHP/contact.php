@@ -56,9 +56,7 @@
                   if (empty($name) or empty($phone) or empty($comment)) {
                     echo "Please make sure to fill out all required information";
                   } else {
-                    echo "Name: " . $name . "/n";
-                    echo "Phone: " . $phone . "/n";
-                    echo "Comment: " . $comment . "/n";
+                     mail("anitabudathoki12@yahoo.com","Customer Service",$comment);
                   }
                 }
                ?>
